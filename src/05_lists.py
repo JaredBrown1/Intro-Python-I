@@ -13,8 +13,8 @@ print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
-x.append(y)
-print(x)
+# x.append()
+# # print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
@@ -23,7 +23,7 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE
-# z.append()
+# x.append()
 # print(x)
 
 # Print the length of list x
@@ -32,5 +32,11 @@ print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-z = [element * 1000 for element in x]
-print(z)
+
+
+def mult_x(x):
+    for num in x:
+        print(num * 1000)
+
+
+mult_x(x)
