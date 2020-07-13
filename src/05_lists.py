@@ -26,6 +26,13 @@ print(x)
 # x.append()
 # print(x)
 
+# def add_99(x):
+#     del x[4]
+#     del x[-1]
+#     x.append(99)
+#     x.append(10)
+#     return x
+
 # Print the length of list x
 # YOUR CODE HERE
 print(len(x))
