@@ -47,6 +47,3 @@ print(waypoints)
 x = waypoints[0]
 x.update({"lon": -130, "name": "not a real place"})
 print(x)
-
-# Write a loop that prints out all the field values for all the waypoints
-# YOUR CODE HERE

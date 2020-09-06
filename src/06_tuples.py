@@ -30,30 +30,20 @@ a = (2, 7)   # <-- x,y coordinates stored in tuples
 b = (-14, 72)
 
 # Prints "Distance is 66.94"
-# print("Distance is: {:.2f}".format(dist(a, b)))
+print("Distance is: {:.2f}".format(dist(a, b)))
 
 
 # Write a function `print_tuple` that prints all the values in a tuple
 
 # YOUR CODE HERE
+def print_tuple(tup):
+    for i in tup:
+        print(i)
+
 
 t = (1, 2, 5, 7, 99)
-# Prints 1 2 5 7 99, one per line
-
-
-# def print_tuple(a):
-#     for x in t:
-#         print(x)
-
-
-# print_tuple(t)
+print_tuple(t)  # Prints 1 2 5 7 99, one per line
 
 # Declare a tuple of 1 element then print it
-u = (1)  # What needs to be added to make this work?
-
-
-def print_tuple(a):
-    print(a)
-
-
+u = (1,)  # What needs to be added to make this work?
 print_tuple(u)
